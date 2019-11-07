@@ -1,0 +1,14 @@
+{
+  "name": "wikiautomated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^15.1.1",
+    "rimraf": "^3.0.0",
+    "worker-farm": "^1.7.0"
+  }
+}
