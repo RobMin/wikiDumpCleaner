@@ -8,6 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "jsdom": "^15.1.1",
+    "lodash": "^4.17.15",
     "rimraf": "^3.0.0",
     "worker-farm": "^1.7.0"
   }

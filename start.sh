@@ -12,7 +12,6 @@ node createCleanRandomSet.js $2
 mkdir dump3
 cat ./dump2/* > ./dump3/clean.xml 
 
-mkdir output
 node index.js ./dump3/clean.xml $3
 
 rm -rf dump
