@@ -4,6 +4,10 @@
 # $2 - home many 10mb files to take
 # $3 - output file
 
+rm -rf dump
+rm -rf dump2
+rm -rf dump3
+
 mkdir dump
 sudo split --suffix-length=4 --bytes=10M --numeric-suffixes --verbose $1 ./dump/
 

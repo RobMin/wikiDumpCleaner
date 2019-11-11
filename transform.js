@@ -34,7 +34,7 @@ function filterLine(line) {
   const ll = line.length;
   if (ll < 8) return false;
   const JUNK = ['Wiki', 'wiki', '    ', '{|', 'http', 'File:', 'style=', 'bar:', 'fontsize:', 'text:', 'shift:'];
-  if (JUNK.some(junk => line.includes(junk)) || new RegExp('&.{1,6};').test(line) || new RegExp('\\(right|left|top|bottom|math)').test(line)) {
+  if (JUNK.some(junk => line.includes(junk)) || new RegExp('&.{1,6};').test(line) || new RegExp('\\\\(right|left|top|bottom|math)').test(line)) {
     return false;
   }
   return true;
